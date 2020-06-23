@@ -6,15 +6,18 @@
     },
     "DateTime": {
       "display_name": "Date of run",
-      "display_level": 1
+      "display_level": 1,
+      "constraint_period": 30
     },
     "Checked studies": {
       "display_name": "Number of studies checked",
-      "display_level": 1
+      "display_level": 1,
+      "units": "studies"
     },
     "Deleted studies": {
       "display_name": "Number of studies deleted",
-      "display_level": 1
+      "display_level": 1,
+      "units": "studies"
     }
   },
   "comments": {
