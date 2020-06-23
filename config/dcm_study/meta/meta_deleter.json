@@ -1,0 +1,25 @@
+{
+  "results": {
+    "Deleter run": {
+      "display_name": "Deleter run",
+      "display_level": 1
+    },
+    "DateTime": {
+      "display_name": "Date of run",
+      "display_level": 1
+    },
+    "Checked studies": {
+      "display_name": "Number of studies checked",
+      "display_level": 1
+    },
+    "Deleted studies": {
+      "display_name": "Number of studies deleted",
+      "display_level": 1
+    }
+  },
+  "comments": {
+    "description": "meta config for the Orthanc eleter",
+    "author": "Jaap Groen, OLVG"
+  },
+  "metaformat": "20180910"
+}

@@ -1,0 +1,33 @@
+{
+    "actions": {
+        "deleter": {
+            "filters": {}, 
+            "params": {
+                "orthanc_ip":"localhost",
+                "orthanc_port":8042,
+                "orthanc_user":"orthanc",
+                "orthanc_password":"waddemo",
+                "delete_after":1825,
+                "run_interval":7
+            }
+        }
+    }, 
+    "cfgformat": "20180910", 
+    "comments": {
+        "author": "Jaap Groen, OLVG",  
+        "description": "Automatic deletion of studies in Orthanc", 
+        "version": "20200417"
+    }, 
+    "info": {
+        "deleter": {
+            "params": {
+                "orthanc_ip":"ip of the orthanc server",
+                "orthanc_port":"port of the orthanc server",
+                "orthanc_user":"username for the orthanc server if needed",
+                "orthanc_password":"password for the orthanc server if needed",
+                "delete_after":"minimal number of days between now and studydate",
+                "run_interval":"minimal number of days between each deletion run"
+            }
+        }
+    }
+}
